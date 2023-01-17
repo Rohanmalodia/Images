@@ -5,12 +5,13 @@
     <title>360&deg; Image</title>
     <meta name="description" content="360&deg; Image - A-Frame">
     <script src="aframe-master.js"></script>
+    <script src="button.js"></script>
   </head>
   <body>
     <a-scene>
       <a-sky src="qusai.jpg" rotation="0 -130 0"></a-sky>
-
-      <a-text font="kelsonsans" value="Demo" width="6" position="-2.5 0.25 -1.5"
+      <a-entity id="sphereButton" button="label: sofa" position="-5  0.5  -1.5"></a-entity>
+      <a-text font="kelsonsans" value="demo" width="6" position="-2.5 0.25 -1.5"
               rotation="0 15 0"></a-text>
     </a-scene>
   </body>
